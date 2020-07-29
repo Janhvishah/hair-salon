@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="Hair Salon"
+   
+  <link rel="shortcut icon" href="./images/bevel-logo-128x50-84.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+      
+
+    
+      <section id="bevel-service" class="row backgroungservice">
+          <div class="col-sm-12 text-sm-center title-wrap card-service">
+              <strong><h2  class="service-title">Gents</h2></strong>
+          </div>
+          
+          <div class="col-sm-4 card-service">
+            <div class="card cart-block">
+              <div class="feature-img"><img src="images/haircut.jpg" class="card-img-top"></div>
+              <div class="card-block">
+                <h4 class="feature-title"><span style="font-weight: normal;">Haircut/Style/Blow Dry</span></h4>
+
+                <div class="delimiter"></div>
+                <p class="feature-text">Our highly trained stylists are here to tackle all your needs with a professional Cutting that will leave you looking and feeling phenomenal.<br></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 card-service">
+            <div class="card cart-block">
+              <div class="feature-img"><img src="images/Treatwell_1020-1.jpg" class="card-img-top"></div>
+              <div class="card-block">
+                <h4 class="feature-title"><span style="font-weight: normal;">Hair Colour and Highlights</span></h4>
+
+                <div class="delimiter"></div>
+                <p class="feature-text">Our custom colour experts are here to help you pick the perfect COLOR/HIGKLIGHT/AMBRE AND BALAYAGE. Let us know what you desire and we'll bring that vision to life at the Salon.<br></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 card-service">
+            <div class="card cart-block">
+                
+              <div class="feature-img"><img src="images/shaving.jpg" class="card-img-top"></div>
+              <div class="card-block">
+                <h4 class="feature-title"><span style="font-weight: normal;">Shaving</span></h4>
+
+                <div class="delimiter"></div>
+                <p class="feature-text">We offer professional salon Shaving.<br></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 card-service">
+            <div class="card cart-block">
+              <div class="feature-img"><img src="images/facial.jpg" class="card-img-top"></div>
+              <div class="card-block">
+                <h4 class="feature-title"><span style="font-weight: normal;">Facial/Clean up</span></h4>
+
+                <div class="delimiter"></div>
+                <p class="feature-text">We offer a full range of aesthetic services like clean up, facial which are carried out in our private room.<br></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 card-service">
+            <div class="card cart-block">
+              <div class="feature-img"><img src="images/menSpa.jpg" class="card-img-top"></div>
+              <div class="card-block">
+                <h4 class="feature-title"><span style="font-weight: normal;">Hair Spa/Body Spa</span></h4>
+
+                <div class="delimiter"></div>
+                <p class="feature-text">Discover the excelence of Fine and Fade hair care. The Luxury Spa pamper you in comfort.<br></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 card-service">
+            <div class="card cart-block">
+              <div class="feature-img"><img src="images/manicure.jpg" class="card-img-top"></div>
+              <div class="card-block">
+                <h4 class="feature-title"><span style="font-weight: normal;">Manicure and Pedicure</span></h4>
+
+                <div class="delimiter"></div>
+                <p class="feature-text">Pedicure and manicure are blessings for the ones who are always on the go. What a luxury it is to sit, relax, and rejuvenate while a handful of professionals take care of your feet and hands.<br></p>
+
+              </div>
+            </div>
+          </div>
+      </section>
+      
+
+      
+     
+     
+  </div>
+  <!-- <script src="https://kit.fontawesome.com/d7cfe246d0.js" crossorigin="anonymous"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script>
+
+      function scrollToElement(id) {
+        var elmnt = document.getElementById(id);
+        if (elmnt){
+          console.log('scrolling:'+id);
+          elmnt.scrollIntoView({'behavior':'smooth','block':'center','inline ':'start'});
+        }
+        
+      }
+      window.onscroll = () => {
+      const nav = document.querySelector('#toggleable-nav');
+      if(this.scrollY <= 100) {
+        nav.className = 'toggleable-show'; 
+      } else {
+        nav.className = 'toggleable-hide';
+      }
+    };
+
+    
+  </script>
+
+</body>
+
+</html>
